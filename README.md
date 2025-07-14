@@ -1,4 +1,4 @@
-![Icon](https://www.larrymtaylor.com/images/copy-green-128.png)  
+![Icon](https://www.larrymtaylor.com/images/copy-black-128.png)  
 # CopyPaste
 
 ## Description
