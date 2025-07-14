@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="23727" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="23727"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="494" id="495"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="494" customClass="AppDelegate">
+            <connections>
+                <outlet property="mCopyDCMenu" destination="q1Y-WV-ywI" id="U6f-Tw-rM3"/>
+                <outlet property="mCopyDragMenu" destination="Qme-TO-oGo" id="NPw-ea-Crb"/>
+                <outlet property="mPasteMenu" destination="35C-qA-2Zw" id="GSP-7N-2cd"/>
+                <outlet property="mRightPasteMenu" destination="3X3-Vz-GwL" id="heY-kz-e81"/>
+                <outlet property="mStatusMenu" destination="536" id="543"/>
+            </connections>
+        </customObject>
+        <customObject id="420" customClass="NSFontManager"/>
+        <menu id="536">
+            <items>
+                <menuItem title="Copy after left double click" id="q1Y-WV-ywI" userLabel="Copy after double click">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="copyDCAction:" target="494" id="iWR-6I-emH"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Copy after left drag" id="Qme-TO-oGo" userLabel="Copy after drag">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="copyDragAction:" target="494" id="lET-wk-DWZ"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Paste after middle click" id="35C-qA-2Zw" userLabel="Paste after middle click">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="pasteAction:" target="494" id="coZ-8c-7kg"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Paste after right double click" id="3X3-Vz-GwL" userLabel="Paste after right double click">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="rightPasteAction:" target="494" id="J6c-d4-2dv"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="bM5-NS-wK0"/>
+                <menuItem title="About" id="539">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="orderFrontStandardAboutPanel:" target="-1" id="ydt-xr-ysq"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="D9F-Yf-hCk"/>
+                <menuItem title="Quit" id="hr0-kI-OkC">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="terminate:" target="-1" id="xcf-yk-5bT"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="165" y="5"/>
+        </menu>
+    </objects>
+</document>
