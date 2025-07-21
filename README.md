@@ -10,6 +10,10 @@ behavior found in Unix/Linux X11 window managers.
 
 Releases can be downloaded [here](https://www.larrymtaylor.com/software.php).
 
+## Dependencies
+CopyPaste requires LTCommon. It is available on GitHib 
+[here](https://github.com/lmt3210/LTCommon).
+
 ## Credits
 
 Low-level copy and paste code adapted from [lodestone/macpaste](https://github.com/lodestone/macpaste)

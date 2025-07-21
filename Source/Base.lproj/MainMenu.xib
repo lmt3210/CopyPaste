@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="23727" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="23727"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -17,8 +17,8 @@
                 <outlet property="mCopyDCMenu" destination="q1Y-WV-ywI" id="U6f-Tw-rM3"/>
                 <outlet property="mCopyDragMenu" destination="Qme-TO-oGo" id="NPw-ea-Crb"/>
                 <outlet property="mPasteMenu" destination="35C-qA-2Zw" id="GSP-7N-2cd"/>
-                <outlet property="mRightPasteMenu" destination="3X3-Vz-GwL" id="heY-kz-e81"/>
                 <outlet property="mStatusMenu" destination="536" id="543"/>
+                <outlet property="mRightPasteMenu" destination="3X3-Vz-GwL" id="heY-kz-e81"/>
             </connections>
         </customObject>
         <customObject id="420" customClass="NSFontManager"/>
