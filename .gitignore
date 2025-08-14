@@ -6,9 +6,3 @@
 # Xcode user settings
 xcuserdata/
 
-# Build scripts and supporting files
-build.sh
-clean.sh
-Makefile
-cmdmain.c
-
