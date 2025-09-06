@@ -6,10 +6,6 @@
 CopyPaste is a utility that simulates the mouse button copy/paste
 behavior found in Unix/Linux X11 window managers. 
 
-## Downloads
-
-Releases can be downloaded [here](https://www.larrymtaylor.com/software.php).
-
 ## Dependencies
 CopyPaste requires LTCommon. It is available on GitHib 
 [here](https://github.com/lmt3210/LTCommon).
